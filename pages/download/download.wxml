@@ -1,0 +1,7 @@
+<!--pages/download/download.wxml-->
+<view>
+<image src="{{firstSrc}}" class="imgF"></image>
+</view>
+<view>
+  <image src="{{secondSrc}}" class="imgS"></image>
+</view>

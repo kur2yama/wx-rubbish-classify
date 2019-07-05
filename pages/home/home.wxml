@@ -1,0 +1,44 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <view class="navs">
+    <view bindtap="changeCurrent" data-idx="{{index}}" wx:for="{{navs}}" wx:key="{{index}}" class="{{current==index?'nav-item nav-active'+index:'nav-item'}}">
+      {{item}}
+    </view>
+  </view>
+  <view class="main">
+    <swiper bindchange="swiperchange" current='{{current}}' class="swiperBox">
+      <swiper-item current="{{0}}" class="swiperItem">
+        <view class="rubbishTitle">
+          <image src="../../images/IMG_2042_03.png" class="swiperImg"></image>
+          <view class="rubbishText">
+            <span class="textSpan0">湿垃圾</span>是指日常生活垃圾中可分解的有机物质部分。有机垃圾包括食物残渣、菜根、菜叶，动物蹄、角、瓜皮、果屑、蛋壳、鱼鳞、蛋壳、毛发、植物枝干、树叶、杂草、动物尸体、牲畜粪便等。有机垃圾应由专人负责收 集，收集容器必须密封、有盖、防渗漏、防蝇、防鼠。
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item current="{{1}}" class="swiperItem">
+        <view class="rubbishTitle">
+          <image src="../../images/IMG_2042_05.png" class="swiperImg"></image>
+          <view class="rubbishText">
+            <span class="textSpan1">干垃圾</span>即其它垃圾，指除可回收物、有害垃圾、厨余垃圾（湿垃圾）以外的其它生活废弃物。其他垃圾包括砖瓦陶瓷、渣土、卫生间废纸、瓷器碎片等难以回收的废弃物，采取卫生填埋可有效减少对地下水、地表水、土壤及空气的污染，在当今社会，还无有效化解其他垃圾的好方法，所以需尽量少产生。
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item current="{{2}}" class="swiperItem">
+        <view class="rubbishTitle">
+          <image src="../../images/IMG_2042_07.png" class="swiperImg"></image>
+          <view class="rubbishText">
+            <span class="textSpan2">可回收垃圾</span>就是可以再生循环的垃圾。本身或材质可再利用的纸类、硬纸板、玻璃、塑料、金属、塑料包装，与这些材质有关的如：报纸、杂志、广告单及其它干净的纸类等皆可回收。
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item current="{{3}}" class="swiperItem">
+        <view class="rubbishTitle">
+          <image src="../../images/IMG_2042_09.png" class="swiperImg"></image>
+          <view class="rubbishText">
+            <span class="textSpan3">有害垃圾</span>指废电池、废灯管、废药品、废油漆及其容器等对人体健康或者自然环境造成直接或者潜在危害的生活废弃物。 常见包括废电池、废荧光灯管、废灯泡、废水银温度计、废油漆桶、过期药品等。有害有毒垃圾需特殊正确的方法安全处理
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

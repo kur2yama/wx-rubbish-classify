@@ -1,0 +1,10 @@
+/* pages/download/download.wxss */
+
+.imgF {
+  width: 100%;
+  height: 600px;
+}
+.imgS {
+  width: 100%;
+  height: 600px;
+}

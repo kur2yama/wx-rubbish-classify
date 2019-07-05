@@ -1,0 +1,35 @@
+/* pages/item/item.wxss */
+.itemPage{
+  width:100%;
+  height:100%;
+  background-color:#ddd; 
+  overflow: hidden;
+}
+.itemList{
+  display: inline-block;
+  width:90%;
+  height:220rpx;
+  border-radius: 10px;
+  background-color:#fff; 
+  margin:2% 5%;
+}
+.itemImg{
+  width:200rpx;
+  height:200rpx;
+  margin-top:10rpx;
+  margin-left: 10rpx;
+  vertical-align: top;
+}
+.itemText{
+  display: inline-block;
+  height:200rpx;
+  line-height: 200rpx;
+}
+.jianjiaohao{
+  font-size:50rpx;
+  float:right;
+  height:200rpx;
+  line-height: 200rpx;
+  padding-right:20rpx;
+  color:#ddd;
+}
