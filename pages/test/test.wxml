@@ -1,2 +1,34 @@
-<!--pages/test/test.wxml-->
-<text>pages/test/test.wxml</text>
+<view class='box'>
+  <view hidden='{{flag1}}'>
+    <picker class='CSnavNum'>
+      <span>{{num}}</span>/10
+    </picker>
+    <picker class="CStitle" data-idx="{{index}}">{{lists[index].title}} </picker>
+  </view>
+
+
+  <view class='CSbox' hidden='{{flag1}}'>
+    <view class='CScontent'>
+      <image src="../../images/IMG_2042_03.png" class='CSimg' data-name="湿垃圾" bindtap="settitle"></image>
+
+      <image src="../../images/IMG_2042_05.png" class='CSimg' data-name="干垃圾" bindtap="settitle1"></image>
+    </view>
+    <view class='CScontent'>
+      <image src="../../images/IMG_2042_07.png" class='CSimg' data-name="可回收物" bindtap="settitle2"></image>
+      <image src="../../images/IMG_2042_09.png" class='CSimg' data-name="有害垃圾" bindtap="settitle3"></image>
+    </view>
+  </view>
+
+
+  <view class='qqq' hidden='{{flag}}'>
+    <picker class='answerfenshu'>{{count}}分</picker>
+    <view class='answerbox' wx:for="{{answer}}" wx:key="{{index}}">
+      <span class='answertitle'>{{item.title}}</span>
+      <span class='answeritem'>{{item.name}}</span>
+      <span class="{{item.item==item.name?'answername':'answername1'}}" >{{item.item==item.name?gou:item.item}}</span>
+    </view>
+
+  </view>
+
+
+</view>

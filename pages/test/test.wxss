@@ -1,1 +1,70 @@
 /* pages/test/test.wxss */
+.box{
+  overflow:hidden;
+}
+
+.CSnavNum{
+  text-indent: 2rem;
+}
+.CStitle{
+  width:100%;
+  height:200rpx;
+  margin:10px auto;
+  font-size: 90rpx;
+  text-align:center;
+  line-height: 200rpx;
+}
+.CSbox{
+    width: 100%;
+    height:600rpx;
+}
+.CScontent{
+  width:100%;
+  height:200rpx;
+}
+.CSimg{
+  width:20%;
+  height:73%;
+  float: left;
+  margin-left: 63px;
+
+}
+.qqq{
+   width:100%;
+}
+.answerfenshu{
+  width:100%;
+  height:100rpx;
+  line-height: 100rex;
+  font-size: 70rpx;
+  text-align: center;
+ 
+}
+.answerbox{
+  width: 100%;
+   text-indent: 1rem;
+
+}
+.answertitle{
+  width:30%;
+ 
+   display:inline-block; 
+}
+.answeritem{
+  width:30%;
+ 
+ 
+   display:inline-block; 
+}
+.answername{
+  width:30%;
+  color:green;
+
+   display:inline-block; 
+}
+.answername1{
+  width:30%;
+  color:red;
+
+   display:inline-block; 
+}
