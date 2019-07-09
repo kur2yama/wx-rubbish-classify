@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <view class='box'>
   <view hidden='{{flag1}}'>
     <picker class='CSnavNum'>
@@ -32,3 +33,6 @@
 
 
 </view>
+=======
+<!--pages/test/test.wxml-->
+>>>>>>> c198987aa5fe33c4c12f5a92f8ea38588fdd85cc
