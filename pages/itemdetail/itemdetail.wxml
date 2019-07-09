@@ -1,0 +1,10 @@
+<!--pages/itemdetail/itemdetail.wxml-->
+<view class="detailPage">
+  <view class="detailList">
+      <view wx:for="{{showList}}" wx:key="{{index}}" class="detailItem"  bindtap="showTap">
+        <image src="{{item.src}}" class="itemImg"></image>
+        <view class="itemName">{{item.itemName}}</view>
+        <view class="itemClassify">{{item.classify}}</view>
+      </view>
+  </view>
+</view>

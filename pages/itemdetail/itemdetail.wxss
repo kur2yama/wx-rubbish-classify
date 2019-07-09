@@ -1,0 +1,40 @@
+/* pages/itemdetail/itemdetail.wxss */
+.detailPage{
+  width: 100%;
+  height:100%;
+  background-color:#ddd;
+  overflow:hidden;
+}
+.detailList{
+  width:95%;
+  margin:2.5%;
+  height:1200rpx;
+   
+}
+.detailItem{
+  overflow: hidden;
+  width:100%;
+  height:200rpx;
+  background-color: #fff;
+  border-bottom:1px solid #aaa;
+  border-radius:20px;
+  
+}
+.itemImg{
+  float:left;
+  width:200rpx;
+  height:200rpx;
+  margin-left:20rpx;
+}
+.itemName{
+  float:left;
+  height: 200rpx;
+  line-height: 200rpx;
+}
+.itemClassify{
+  float:right;
+  height: 200rpx;
+  line-height: 200rpx;
+  margin-right:30rpx;
+  font-weight: 600;
+}
