@@ -22,14 +22,14 @@
 }
 .itemText{
   display: inline-block;
-  height:200rpx;
-  line-height: 200rpx;
+  height:220rpx;
+  line-height: 220rpx;
 }
 .jianjiaohao{
   font-size:50rpx;
   float:right;
-  height:200rpx;
-  line-height: 200rpx;
+  height:220rpx;
+  line-height: 220rpx;
   padding-right:20rpx;
   color:#ddd;
 }

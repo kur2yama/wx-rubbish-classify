@@ -8,19 +8,23 @@ Page({
     itemList:[
       {
         itemTitle:"小龙虾",
-        src:"../../images/IMG_2047_03.png"
+        src:"../../images/IMG_2047_03.png",
+        idx:0
       },
       {
         itemTitle: "粽子",
-        src: "../../images/IMG_2046_03.png"
+        src: "../../images/IMG_2046_03.png",
+        idx: 1
       },
       {
         itemTitle: "奶茶",
-        src: "../../images/IMG_2048_11.png"
+        src: "../../images/IMG_2048_11.png",
+        idx: 2
       },
       {
         itemTitle: "电池",
-        src: "../../images/IMG_2048_13.png"
+        src: "../../images/IMG_2048_13.png",
+        idx: 3
       }
     ]
   },

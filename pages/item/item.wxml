@@ -1,8 +1,8 @@
 <!--pages/item/item.wxml-->
-<view class="itemPage">
-  <view wx:for="{{itemList}}" wx:key="{{index}}" class="itemList">
+<view class="itemPage">  
+    <navigator wx:for="{{itemList}}" wx:key="{{index}}" class="itemList" url="{{'../itemdetail/itemdetail?idx='+item.idx}}">
       <image src="{{item.src}}" class="itemImg"></image>
       <text class="itemText">{{item.itemTitle}}</text>
       <text class="jianjiaohao">></text>
-  </view>
+    </navigator>
 </view>
